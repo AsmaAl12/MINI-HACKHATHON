@@ -1,0 +1,99 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    background-color: rgb(72, 72, 204);
+}
+
+label {
+    color: white;
+    font-weight: 900;
+    font-size: 38px;
+    padding: 22px 0px;
+    float: left;
+
+}
+
+nav ul {
+    font-size: 15px;
+    font-weight: 900;
+    display: flex;
+    margin: auto;
+}
+
+nav ul li {
+    padding: 22px 23px;
+    list-style: none;
+    cursor: pointer;
+
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    font-size: 20px;
+    transition: 0.2s;
+    padding: 15px;
+}
+
+button {
+    color: white;
+    background: transparent;
+    border-color: white;
+    margin-right: 33px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0px 20px;
+    font-weight: 900;
+    border-radius: 40%;
+}
+
+button:hover {
+    background-color: white;
+    color: rgb(72, 72, 204);
+}
+
+#footer {
+    background-color: rgb(72, 72, 204);
+    display: flex;
+}
+
+.section1 h1 {
+    color: white;
+    font-weight: 900;
+    float: left;
+    font-size:40px;
+    padding-top: 10% ;
+    padding-right: 22%;
+    padding-left: 22%;
+}
+
+.section1 p {
+    color: white;
+    font-weight: 800;
+    padding-top: 25%;
+    font-size: 15px;
+    padding-right: 22%;
+    padding-left: 22%;
+}
+
+.section2 img {
+    float: right;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+}
+.section1 button{
+    padding: 10px;
+    /* padding-right: 22%; */
+    /* border-radius: 50%; */
+    margin-left: 22%;
+}
+
